@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MSM Botanik | İzmir Bayındır</title>
+<meta name="description" content="MSM Botanik - İzmir Bayındır'da bitki ve fidan üretimi.">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#173b24;background:#f5f7f2}
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96);border-bottom:1px solid #dfe7dc}
+.nav{max-width:1100px;margin:auto;padding:16px 20px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:24px;font-weight:800;letter-spacing:1px}
+.nav a{color:#173b24;text-decoration:none;margin-left:18px;font-weight:600}
+.hero{max-width:1100px;margin:28px auto;padding:0 20px}
+.hero-card{min-height:500px;border-radius:28px;overflow:hidden;background:linear-gradient(90deg,rgba(12,45,23,.84),rgba(12,45,23,.15)),url('hero.jpg') center/cover;display:flex;align-items:center;padding:60px}
+.hero h1{font-size:clamp(42px,7vw,76px);margin:0 0 12px;color:white}
+.hero p{font-size:20px;line-height:1.6;color:#f2f6ef;max-width:620px}
+.btn{display:inline-block;background:#d7a83e;color:#152c19;padding:14px 20px;border-radius:12px;text-decoration:none;font-weight:800;margin-top:12px}
+section{max-width:1100px;margin:70px auto;padding:0 20px}
+h2{font-size:36px;margin-bottom:12px}
+.lead{color:#5d6c60;line-height:1.7}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:25px}
+.card{background:white;padding:24px;border-radius:18px;box-shadow:0 8px 25px rgba(30,60,35,.07)}
+.card h3{margin-top:0}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.gallery img{width:100%;height:240px;object-fit:cover;border-radius:16px}
+.contact{background:#173b24;color:white;border-radius:24px;padding:36px}
+.contact a{color:white}
+footer{text-align:center;padding:30px;color:#68766b}
+@media(max-width:760px){
+ .nav a{display:none}.hero-card{padding:32px;min-height:430px}
+ .cards{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}
+ .gallery img{height:190px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="logo">🌿 MSM BOTANİK</div>
+    <nav><a href="#hakkimizda">Hakkımızda</a><a href="#galeri">Galeri</a><a href="#iletisim">İletişim</a></nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-card">
+    <div>
+      <h1>MSM Botanik</h1>
+      <p>Doğadan gelen güzellikleri Bayındır'dan sizlerle buluşturuyoruz. Bitki ve fidan üretimimizle yeşil alanlarınıza değer katıyoruz.</p>
+      <a class="btn" href="#iletisim">Bize Ulaşın</a>
+    </div>
+  </div>
+</section>
+
+<section id="hakkimizda">
+  <h2>Yeşile Değer Katıyoruz 🌱</h2>
+  <p class="lead">MSM Botanik, İzmir Bayındır'da bitki ve fidan üretimiyle hizmet veren bir işletmedir. Üretim alanımızdan seçtiğimiz bitkileri müşterilerimizle buluşturuyor, bahçe ve peyzaj çalışmalarınıza katkı sağlıyoruz.</p>
+  <div class="cards">
+    <div class="card"><h3>🌿 Bitki Üretimi</h3><p>Farklı türlerde süs bitkileri ve yeşil ürünler.</p></div>
+    <div class="card"><h3>🌳 Fidan</h3><p>Bahçe ve peyzaj için uygun fidan seçenekleri.</p></div>
+    <div class="card"><h3>📍 Bayındır</h3><p>İzmir Bayındır merkezli üretim ve satış.</p></div>
+  </div>
+</section>
+
+<section id="galeri">
+  <h2>Üretimden Kareler</h2>
+  <p class="lead">MSM Botanik'in üretim alanlarından seçilmiş fotoğraflar.</p>
+  <div class="gallery">
+    <img src="bitkiler-1.jpg" alt="MSM Botanik bitkileri">
+    <img src="bitkiler-2.jpg" alt="Saksılı bitkiler">
+    <img src="bitkiler-3.jpg" alt="Yeşil bitkiler">
+    <img src="bitkiler-4.jpg" alt="Üretim alanı">
+    <img src="bitkiler-5.jpg" alt="Çiçekli bitkiler">
+    <img src="bitkiler-6.jpg" alt="Fidan üretim alanı">
+    <img src="bitkiler-7.jpg" alt="Saksılı bitkiler">
+  </div>
+</section>
+
+<section id="iletisim">
+  <div class="contact">
+    <h2>İletişim</h2>
+    <p><strong>Adres:</strong> İzmir, Bayındır</p>
+    <p><strong>Telefon:</strong><br>
+      <a href="tel:+905462859744">0546 285 97 44</a><br>
+      <a href="tel:+905315260318">0531 526 03 18</a><br>
+      <a href="tel:+905077780368">0507 778 03 68</a>
+    </p>
+    <p><strong>Ek iletişim:</strong> 537 517 73 72</p>
+    <a class="btn" href="https://wa.me/905462859744">WhatsApp'tan Yazın</a>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 MSM Botanik — İzmir / Bayındır</footer>
+</body>
+</html>
